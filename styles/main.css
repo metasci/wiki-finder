@@ -1,0 +1,146 @@
+body {
+    background: #111;
+}
+
+.header {
+    padding-top: 5%;
+    color: gray;
+    text-align: center;
+}
+.header h1 {
+    
+    font-size: 45px;
+}
+
+.random {
+    
+    font-size: 20px;
+    margin: 10% 0 3% 0;
+    text-align: center;
+}
+.random a {
+    color:  #ccffcc;
+    text-decoration: none;
+}
+.random a:hover {
+    color: white;
+}
+
+.search {
+    text-align: center;
+}
+
+
+.mag {
+    color:  #ccffcc;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    background: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    border: 3px solid gray;
+}
+.mag:hover {
+    color: white;
+    border-color: white;
+}
+
+input {
+    background: none;
+    border: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 390px;
+}
+.bar {
+    font-size: 18px;
+    text-align: left;
+    padding: 10px 10px 0 15px;
+    position: relative;
+    display: inline-block;
+    background: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 450px;
+    margin: 0;
+    border: 3px solid #888;
+}
+.clearable {
+    float: right;
+    font-size: 20px;
+    color: gray;
+    margin 0;
+    position: relative;
+    display: inline-block;
+    background: none;
+    border: none;
+}
+.clear {
+    cursor: pointer;
+}
+input:focus{
+    outline: none;
+}
+
+.instruct {
+    cursor: default;
+    color:  #ccffcc;
+    font-size: 20px;
+    margin: 3% 0 0 0;
+    text-align: center;
+}
+
+.results {
+    text-align: center;
+    display: inline-block;
+    margin: 30px 0 30px 0;
+       
+}
+
+
+.results a {
+    color: #222;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    background-color: #888;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 30px;
+    text-align: left;
+    text-decoration: none;
+    width: 90%;
+    outline-width: 0;
+    box-shadow: -1px 2px 5px white;
+}
+.results a:hover {
+    color: black;
+    left: 1px;
+    bottom: 1px;
+    box-shadow: -2px 3px 5px #ccffcc;
+    background-color: #999;
+}
+ .results a:active {
+    box-shadow: -1px 2px 5px #ccffcc;
+    left: -1px;
+    bottom: -1px;
+    
+} 
+
+.me {
+    text-align: center;
+    margin: 15%;
+}
+.more {
+    color: white;
+}
+.more:hover{
+    color: gray;
+    text-decoration: none;
+}
